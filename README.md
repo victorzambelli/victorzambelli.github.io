@@ -12,6 +12,7 @@ This project was developed with the following technologies:
 
 ## 📚 Libraries
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Font Awesome](https://fontawesome.com/)
 
 ## 💻 Project
 ![preview](./assets/preview.png/)
