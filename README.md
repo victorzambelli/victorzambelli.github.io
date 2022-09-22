@@ -2,7 +2,6 @@
 I developed this portfolio to store my projects
 
 ## 🚀 Technologies
-
 This project was developed with the following technologies:
 - HTML
 - CSS
