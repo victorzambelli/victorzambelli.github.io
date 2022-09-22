@@ -1,19 +1,19 @@
-# portfolio
-Projeto desenvolvido como meu repositório com meus projetos que já desenvolvi.
+# Portfolio
+I developed this portfolio to store my projects
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 - HTML
 - CSS
 - Json
 - JavaScript
 - Git & Github
 
-## 📚 Bibliotecas:
+## 📚 Libraries
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## 💻 Projeto
+## 💻 Project
 ![preview](./assets/preview.png/)
-[Clique aqui para acessar]()
-> **Objetivo:** Criar um portfólio para guardar projetos desenvolvidos e falar um pouco sobre mim.
+[Click here to access project]()
+> **Objetivo:** Create a portfolio to place my developed projects and talk about myself.
