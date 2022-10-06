@@ -106,7 +106,8 @@ nav h2 {
 /* Home */
 .home,
 .aboutme,
-.myprojects {
+.myprojects,
+.knowledges {
   padding: 6.5% 15%;
   min-height: 35vh;
 }
@@ -300,23 +301,6 @@ nav h2 {
     max-width: 350px;
 }
 
-.languages {
-    position: relative;
-    top: 5vh;
-}
-
-.languages img {
-    max-width: 40px;
-    margin-left: 20px;
-    transition: 0.5s;
-}
-
-.languages img:hover {
-    transform: scale(110%);
-    width: 100%;
-    transition: 0.5s ease;
-}
-
 /* Project Button */
 .projectBtn {
     display: grid;
@@ -383,9 +367,50 @@ nav h2 {
     transition: .3s;
 }
 
+/* My Knowledge */
+.knowledges {
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.languages h2 {
+    margin: 20px 0px;
+}
+
+.languages img {
+    max-width: 40px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.languages img:hover {
+    transform: scale(110%);
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.aboutme-description button {    
+    padding: 0.9em 1.6em;
+    border: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+    background-color: #8758FF;
+    border: 3px solid #181818;
+}
+
+.aboutme-description a {
+    color: #fff;
+    font-family: inherit;
+    text-decoration: none;
+}
+
 /* Footer */
 footer {
-    background-color: #1e1e1e;
     text-align: center;
     padding: 2rem 0;
 }
@@ -432,7 +457,8 @@ footer a:hover {
 
     .home,
     .aboutme,
-    .myprojects {
+    .myprojects,
+    .knowledges {
         padding: 6.5%;
     }
 
@@ -450,10 +476,11 @@ footer a:hover {
     }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 884px) {
     .home,
     .aboutme,
-    .myprojects {
+    .myprojects,
+    .knowledges {
         padding: 22% 0;
         text-align: center;
     }
@@ -514,6 +541,17 @@ footer a:hover {
     .languages {
         position: relative;
         top: 5vh;
+    }
+
+    .aboutme-description button {
+        position: relative;
+        top: 2rem;
+    }
+}
+
+@media (max-width: 512px) {
+    .aboutme-buttons {
+        display: flex;
     }
 }
 
