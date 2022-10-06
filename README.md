@@ -5,7 +5,7 @@ I developed this portfolio to store my projects
 This project was developed with the following technologies:
 - HTML
 - CSS
-- Json
+- JSON
 - JavaScript
 - Git & Github
 
