@@ -40,7 +40,7 @@ fetch(url)
         });
     
         forward.addEventListener("click", function () {  
-            if (firstIndex >= 1) return;
+            if (firstIndex >= 2) return;
             firstIndex++;
 
             const challengeTitle = list.firstdata[firstIndex].title;
@@ -99,7 +99,7 @@ fetch(url)
         });
     
         forward.addEventListener("click", function () {  
-            if (secondIndex >= 1) return;
+            if (secondIndex >= 2) return;
             secondIndex++;
 
             const secondChallengeTitle = list.seconddata[secondIndex].title;
@@ -158,7 +158,7 @@ fetch(url)
         });
     
         forward.addEventListener("click", function () {  
-            if (thirdIndex >= 1) return;
+            if (thirdIndex >= 2) return;
             thirdIndex++;
 
             const thirdChallengeTitle = list.thirddata[thirdIndex].title;
@@ -217,7 +217,7 @@ fetch(url)
         });
     
         forward.addEventListener("click", function () {  
-            if (fourthIndex >= 1) return;
+            if (fourthIndex >= 2) return;
             fourthIndex++;
 
             const fourthChallengeTitle = list.fourthdata[fourthIndex].title;
