@@ -18,8 +18,8 @@
 		"title": "Discord Bot Site",
 		"description": "Projeto desenvolvido para ser um site de um bot discord.",
 		"languages": "Tecnologias usadas: HTML, CSS, BootStrap, Git e Github.",
-		"image": "https://raw.githubusercontent.com/victorzambelli/calculadora/main/preview.png",
-		"link": "https://calculadora-chi-ashen.vercel.app/"
+		"image": "https://raw.githubusercontent.com/victorzambelli/discordbot-website/main/preview.png",
+		"link": "https://discordbot-website.vercel.app/"
 	}
     ],
     "seconddata": [
