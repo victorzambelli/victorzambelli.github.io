@@ -56,11 +56,11 @@
             "link": "https://glassmorphismcard.vercel.app/"
         },
         {
-            "title": "Em breve",
-            "description": "Projetos sendo desenvolvidos, aguarde!",
-            "languages": "Agradeço sua visita ao meu portfólio e espero que goste 😁",
-            "image": "https://jln.com.br/wp-content/uploads/2022/01/em-breve.png",
-            "link": "https://github.com/victorzambelli?tab=repositories"
-        }
+            "title": "Gerador QR Code",
+            "description": "Projeto desenvolvido para gerar códigos QR!",
+            "languages": "Tecnologias usadas: HTML, CSS, JavaScript, Google Chart API, Git e Github.",
+            "image": "https://raw.githubusercontent.com/victorzambelli/gerador_qrcode/main/preview.png",
+            "link": "https://gerador-qrcode-six.vercel.app/"
+        }        
     ]
 }
