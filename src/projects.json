@@ -14,13 +14,13 @@
             "image": "https://raw.githubusercontent.com/victorzambelli/calculadora/main/preview.png",
             "link": "https://calculadora-chi-ashen.vercel.app/"
         },
-		{
-			"title": "Discord Bot Site",
-			"description": "Projeto desenvolvido para ser um site de um bot discord.",
-			"languages": "Tecnologias usadas: HTML, CSS, BootStrap, Git e Github.",
-			"image": "https://raw.githubusercontent.com/victorzambelli/calculadora/main/preview.png",
-			"link": "https://calculadora-chi-ashen.vercel.app/"
-		}
+	{
+		"title": "Discord Bot Site",
+		"description": "Projeto desenvolvido para ser um site de um bot discord.",
+		"languages": "Tecnologias usadas: HTML, CSS, BootStrap, Git e Github.",
+		"image": "https://raw.githubusercontent.com/victorzambelli/calculadora/main/preview.png",
+		"link": "https://calculadora-chi-ashen.vercel.app/"
+	}
     ],
     "seconddata": [
         {
@@ -37,13 +37,13 @@
             "image": "https://raw.githubusercontent.com/victorzambelli/calculadora_imc/main/preview.png",
             "link": "https://calculadora-imc-alpha.vercel.app/"
         },
-		{
-			"title": "Em breve",
-			"description": "Projetos sendo desenvolvidos, aguarde!",
-			"languages": "Agradeço sua visita ao meu portfólio e espero que goste 😁",
-			"image": "https://jln.com.br/wp-content/uploads/2022/01/em-breve.png",
-			"link": "https://github.com/victorzambelli?tab=repositories"
-		}
+	{
+		"title": "Em breve",
+		"description": "Projetos sendo desenvolvidos, aguarde!",
+		"languages": "Agradeço sua visita ao meu portfólio e espero que goste 😁",
+		"image": "https://jln.com.br/wp-content/uploads/2022/01/em-breve.png",
+		"link": "https://github.com/victorzambelli?tab=repositories"
+	}
     ],
     "thirddata": [
         {
@@ -60,13 +60,13 @@
             "image": "https://raw.githubusercontent.com/victorzambelli/contador/main/assets/preview.png",
             "link": "https://contador-lime.vercel.app/"
         },
-		{
-			"title": "Em breve",
-			"description": "Projetos sendo desenvolvidos, aguarde!",
-			"languages": "Agradeço sua visita ao meu portfólio e espero que goste 😁",
-			"image": "https://jln.com.br/wp-content/uploads/2022/01/em-breve.png",
-			"link": "https://github.com/victorzambelli?tab=repositories"
-		}
+	{
+		"title": "Em breve",
+		"description": "Projetos sendo desenvolvidos, aguarde!",
+		"languages": "Agradeço sua visita ao meu portfólio e espero que goste 😁",
+		"image": "https://jln.com.br/wp-content/uploads/2022/01/em-breve.png",
+		"link": "https://github.com/victorzambelli?tab=repositories"
+	}
     ],
     "fourthdata": [
         {
@@ -83,12 +83,12 @@
             "image": "https://raw.githubusercontent.com/victorzambelli/gerador_qrcode/main/preview.png",
             "link": "https://gerador-qrcode-six.vercel.app/"
         },
-		{
-			"title": "Em breve",
-			"description": "Projetos sendo desenvolvidos, aguarde!",
-			"languages": "Agradeço sua visita ao meu portfólio e espero que goste 😁",
-			"image": "https://jln.com.br/wp-content/uploads/2022/01/em-breve.png",
-			"link": "https://github.com/victorzambelli?tab=repositories"
-		}        
+	{
+		"title": "Em breve",
+		"description": "Projetos sendo desenvolvidos, aguarde!",
+		"languages": "Agradeço sua visita ao meu portfólio e espero que goste 😁",
+		"image": "https://jln.com.br/wp-content/uploads/2022/01/em-breve.png",
+		"link": "https://github.com/victorzambelli?tab=repositories"
+	}        
     ]
 }
