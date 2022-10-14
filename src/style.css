@@ -384,7 +384,7 @@ nav h2 {
 }
 
 .languages img:hover {
-    transform: scale(110%);
+    transform: scale(140%);
     width: 100%;
     transition: 0.5s ease;
 }
