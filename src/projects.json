@@ -38,11 +38,11 @@
             "link": "https://calculadora-imc-alpha.vercel.app/"
         },
 	{
-	    "title": "Em breve",
-	    "description": "Projetos sendo desenvolvidos, aguarde!",
-	    "languages": "Agradeço sua visita ao meu portfólio e espero que goste 😁",
-	    "image": "https://jln.com.br/wp-content/uploads/2022/01/em-breve.png",
-	    "link": "https://github.com/victorzambelli?tab=repositories"
+	    "title": "Landing Page",
+	    "description": "Design de Landing Page feito por Rafaella Ballerini e códigos por mim!",
+	    "languages": "Tecnologias usadas: HTML, CSS, Sass, Git e Github.",
+	    "image": "https://raw.githubusercontent.com/victorzambelli/balle-bot/main/preview.png",
+	    "link": "https://balle-bot-inky.vercel.app/"
 	}
     ],
     "thirddata": [
