@@ -4,16 +4,34 @@
     box-sizing: border-box;
 }
 
+:root {
+    --default-white: #ffffff;
+    --light-grey: #d8d8d8;
+    --light-purple: #8758FF;
+    --dark-purple: #3d2183;
+    --light-black: #181818;
+    --light-sec-black: #1e1e1e;
+}
+
+/* New Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--light-purple);
+}
+
 /* Smooth Scroll */
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #181818;
+    background-color: var(--light-black);
     letter-spacing: 1px;
     font-family: 'Inter', sans-serif;
-    color: white; /* ! Remove this line*/
+    color: var(--default-white);
 }
 
 /* Navbar */
@@ -24,12 +42,12 @@ header {
 }
 
 nav {
-    background-color: #1e1e1e;
+    background-color: var(--light-sec-black);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 15% 20px 15%;
-    border-bottom: 2px solid #8758FF;
+    border-bottom: 2px solid var(--light-purple);
 }
 
 nav ul li {
@@ -39,14 +57,14 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--default-white);
     font-weight: 600;
     font-size: 1.2rem;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #8758FF;
+    color: var(--light-purple);
 }
 
 nav ul {
@@ -58,13 +76,13 @@ nav h2 {
 }
 
 #surname {
-    color: #8758FF;
+    color: var(--light-purple);
 }
 
 /* Responsive Navbar */
 .checkbtn {
     font-size: 30px;
-    color: #8758FF;
+    color: var(--light-purple);
     cursor: pointer;
     display: none;
 }
@@ -84,14 +102,14 @@ nav h2 {
     display: none;
     position: absolute;
     right: 20px;
-    background-color: #1e1e1e;
+    background-color: var(--light-sec-black);
     min-width: 130px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-  color: #ffffff;
+  color: var(--default-white);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -135,7 +153,7 @@ nav h2 {
 }
 
 .home p {
-    color: #d8d8d8;
+    color: var(--light-grey);
     font-size: 1.5rem;
     margin: 1rem 0;
     text-transform: uppercase;
@@ -145,7 +163,7 @@ nav h2 {
 .home-type_name {
     font-size: 3rem;
     font-weight: 600;
-    color: #8758FF;
+    color: var(--light-purple);
     letter-spacing: 3px;
     text-transform: uppercase;
 }
@@ -153,7 +171,7 @@ nav h2 {
 .home-type_cursor {
   width: 3px;
   height: 42px;
-  background-color: white;
+  background-color: var(--default-white);
   display: inline-block;
   position: relative;
   top: 3px;
@@ -190,7 +208,7 @@ nav h2 {
     border-radius: 12px;
     margin-top: 1rem;
     margin-right: 1rem;
-    border: 2px solid #8758FF;
+    border: 2px solid var(--light-purple);
 }
 
 .home button::after {
@@ -209,8 +227,8 @@ nav h2 {
     content: "";
     background: linear-gradient(
         45deg,
-        #8758FF, #ca58ff,
-        #8758FF, #5CB8E4
+        var(--light-purple), #ca58ff,
+        var(--light-purple), #5CB8E4
     );
     position: absolute;
     top: -2px;
@@ -281,7 +299,7 @@ nav h2 {
 
 /* About me */
 .aboutme {
-    background-color: #1e1e1e;
+    background-color: var(--light-sec-black);
     display: flex;
 }
 
@@ -294,7 +312,7 @@ nav h2 {
 }
 
 .aboutme p {
-    color: #d8d8d8;
+    color: var(--light-grey);
 }
 
 .aboutme img {
@@ -316,16 +334,16 @@ nav h2 {
 .projectBtn button {
     width: 100px;
     height: 50px;
-    color: #ffffff;
+    color: var(--default-white);
     border-radius: 6px;
     font-size: 24px;
-    background: #1e1e1e;
+    background: var(--light-sec-black);
     position: relative;
     cursor: pointer;
 }
 
 .projectBtn button:active {
-    background: #3d2183;
+    background: var(--dark-purple);
     transform: translateY(4px);
 }
 
@@ -347,29 +365,29 @@ nav h2 {
 }
 
 .project-card p {
-    color: #d8d8d8;
+    color: var(--light-grey);
     margin: 2rem 0;
 }
 
 .project-card span {
-    color: #8758FF;
+    color: var(--light-purple);
 }
 
 .project-image {
-    border-left: 5px solid #8758FF;
+    border-left: 5px solid var(--light-purple);
     width: 100%;
     transition: 0.5s;
 }
 
 .project-image:hover {
     transform: scale(110%);
-    border: 5px solid #8758FF;
+    border: 5px solid var(--light-purple);
     transition: .3s;
 }
 
 /* My Knowledge */
 .knowledges {
-    background-color: #1e1e1e;
+    background-color: var(--light-sec-black);
     text-align: center;
 }
 
@@ -399,8 +417,8 @@ nav h2 {
     border-radius: 10px;
     margin-top: 2rem;
     margin-left: 1.3rem;
-    background-color: #8758FF;
-    border: 3px solid #181818;
+    background-color: var(--light-purple);
+    border: 3px solid var(--light-black);
 }
 
 .aboutme-description a {
@@ -416,23 +434,23 @@ footer {
 }
 
 footer p {
-    color: #d8d8d8;
+    color: var(--light-grey);
     display: inline-block;
 }
 
 footer a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--default-white);
 }
 
 footer a:hover {
-    color: #8758FF;
+    color: var(--light-purple);
     transition: .3s;
 }
 
 /* Others */
 ::selection {
-    background-color: #3d2183;
+    background-color: var(--dark-purple);
 }
 
 /* Responsive */
