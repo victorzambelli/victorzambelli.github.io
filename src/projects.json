@@ -84,11 +84,11 @@
             "link": "https://gerador-qrcode-six.vercel.app/"
         },
 	{
-	    "title": "Seletor de Cores",
-	    "description": "Projeto para pegar cores em código hex de forma simples!",
-	    "languages": "Tecnologias usadas: HTML, CSS, JavaScript.",
-	    "image": "https://raw.githubusercontent.com/victorzambelli/Color_Picker/main/preview.png",
-	    "link": "https://color-picker-plum.vercel.app/"
+	    "title": "Aplicativo de Clima",
+	    "description": "Projeto para pesquisar clima de uma cidade!",
+	    "languages": "Tecnologias usadas: HTML, CSS, JavaScript, OpenWeatherAPI e Github.",
+	    "image": "https://raw.githubusercontent.com/victorzambelli/Weather_app/main/preview.png",
+	    "link": "https://github.com/victorzambelli/Weather_app"
 	}        
     ]
 }
